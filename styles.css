@@ -39,3 +39,22 @@ section {
 img {
     width: 100%;
 }
+.recipe-background {
+    display: block;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.caesar-background {
+    background-image: url(./images/caesar-Salad.jpg);
+}
+
+.lasagna-background {
+    background-image: url(./images/lasagna.jpg);
+}
+
+.spaghetti-background {
+    background-image: url(./images/spagetti-carbonara.jpg);
+}
