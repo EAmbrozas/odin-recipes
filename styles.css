@@ -1,3 +1,7 @@
+body {
+    padding: 20px;
+}
+
 .recipe-links {
     display:flex;
     gap: 20px;
@@ -20,4 +24,8 @@ a:hover {
     padding: 10px 20px;
     border-radius: 5px;
     color: whitesmoke;
+}
+
+section {
+    border-top: 1px solid black;
 }
