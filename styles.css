@@ -4,8 +4,15 @@ body {
 
 .recipe-links {
     display:flex;
+    flex-wrap: wrap;
     gap: 20px;
     list-style: none;
+    justify-content: start;
+    align-items: start;
+}
+
+.recipe-links li {
+    margin-bottom: 20px;
 }
 
 a {
@@ -13,7 +20,6 @@ a {
     border: 1px solid rgb(228, 227, 227);
     padding: 10px 20px;
     border-radius: 5px;
-    margin: 0;
     text-decoration: none;
     color: black;
 }
@@ -28,4 +34,8 @@ a:hover {
 
 section {
     border-top: 1px solid black;
+}
+
+img {
+    width: 100%;
 }
