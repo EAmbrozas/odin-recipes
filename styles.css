@@ -1,0 +1,23 @@
+.recipe-links {
+    display:flex;
+    gap: 20px;
+    list-style: none;
+}
+
+a {
+    background-color: whitesmoke;
+    border: 1px solid rgb(228, 227, 227);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: whitesmoke;
+}
